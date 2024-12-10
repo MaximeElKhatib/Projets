@@ -1,0 +1,9 @@
+
+.job-applications-container {
+    display: flex;                 
+    flex-direction: column;      
+    align-items: center;        
+    justify-content: flex-start;  
+    padding: 20px;                
+    min-height: 100vh;            
+}
