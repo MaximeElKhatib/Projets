@@ -1,0 +1,23 @@
+.footer-home {
+  background-color: darkblue;
+  padding: 25px;
+  border-top: solid 5px black;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+  font-size: larger;
+}
+
+.footer-elem {
+  margin-bottom: 10px;
+}
+
+.footer-elem img {
+  width: 50px;
+  height: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+}

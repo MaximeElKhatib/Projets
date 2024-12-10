@@ -1,0 +1,56 @@
+.contactSection {
+  margin-top: 300px;
+  align-items: center;
+  margin-left: 1000px;
+}
+
+.contactHeading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.formRow {
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: black;
+  border: 1px solid black;
+  width: 400px;
+}
+
+.formInput,
+.formTextarea {
+  width: 380px;
+  padding: 10px;
+  border: none;
+  background-color: black;
+  color: white;
+}
+
+.formTextarea {
+  height: 100px;
+  resize: none;
+}
+
+.formSubmit {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 25px;
+  width: 350px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.formSubmit:hover {
+  background-color: white;
+  color: black;
+}
+
+.formError {
+  color: red;
+}
+
+.formConfirmation {
+  color: green;
+}

@@ -1,0 +1,67 @@
+.App {
+  font-family: sans-serif;
+  text-align: left;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.body {
+  font-family: sans-serif;
+  text-align: left;
+  background-image: url("../assets/BgAccueil.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: -10px;
+  overflow-x: hidden;
+}
+
+.bar-container {
+  height: 200px;
+  width: 65%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(238, 227, 227);
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+.buttonRecherche {
+  background-color: transparent;
+  width: 150px;
+  border-radius: 10px;
+  height: 4rem;
+  padding: 0 10px;
+  box-shadow: 0px 0px 8px #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+  border: 2px solid black;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  transition: font-size 0.5s, transform 0.5s;
+  color: black;
+  text-decoration: none;
+}
+
+.buttonRecherche:hover {
+  font-size: 18px;
+  transform: scale(1.1);
+}
+.location-h {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 200px;
+  margin-bottom: 62px;
+}
+.buttonRecherche:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,52 @@
+#profil {
+  font-size: 36px;
+  color: white;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.profile-container {
+  padding: 40px;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 300px;
+}
+
+.contain-param {
+  margin-bottom: 30px;
+}
+
+.contain-param h2 {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: black;
+  color: white;
+}
+
+.input-field:focus {
+  border: 1px solid white;
+}
+
+.submit-button {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: white;
+  color: black;
+}

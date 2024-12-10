@@ -1,0 +1,19 @@
+.drop-off-choice {
+  background-color: white;
+  width: 235px;
+  border-radius: 10px;
+  height: 2rem;
+  padding: 0 15px;
+  box-shadow: 0px 0px 8px #ddd;
+  margin-left: 35px;
+  margin-bottom: 30px;
+}
+
+.drop {
+  background-color: transparent;
+  border: none;
+  height: 100%;
+  font-size: 1rem;
+  width: 250px;
+  outline: none;
+}

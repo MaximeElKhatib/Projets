@@ -1,0 +1,37 @@
+.navbar {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+}
+.link2 {
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+  border-left: 3px solid;
+}
+.link1 {
+  margin-left: 100px;
+}
+.link1,
+.link2 {
+  font-size: 30px;
+  width: 250px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.link1:hover,
+.link2:hover {
+  background-color: grey;
+  border-radius: 10px;
+}
+.first-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1400px;
+}

@@ -1,0 +1,12 @@
+.titreLog {
+  font-size: 50px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  display: flex;
+  width: 200px;
+}
+#logo {
+  width: 90px;
+  height: 70px;
+}

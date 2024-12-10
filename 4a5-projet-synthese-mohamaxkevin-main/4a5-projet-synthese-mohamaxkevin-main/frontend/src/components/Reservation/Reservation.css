@@ -1,0 +1,147 @@
+.book-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+  margin-top: 60px;
+}
+.search-box-conteneur {
+  width: 90%;
+  margin-right: 20px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  overflow-y: scroll;
+}
+
+.search-box {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.rechercheConteneur {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 20px;
+}
+#reservation {
+  margin-left: 30px;
+  font-size: 40px;
+}
+#statusRes {
+  font-size: 30px;
+}
+.book-list {
+  display: flex;
+}
+.book-details {
+  margin-left: 100px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+.book-list:hover {
+  background-color: rgb(218, 213, 213);
+}
+.book-modele {
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+.book-status {
+  margin-left: 200px;
+  width: 150px;
+  background-color: rgb(11, 209, 11);
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+.legende {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+.legende-emplacement {
+  margin-left: 100px;
+
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.legende-modele {
+  width: 130px;
+  padding-left: 30px;
+}
+.legende-pick {
+  margin-left: 210px;
+
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.legende-drop {
+  margin-left: 220px;
+
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.legende-status {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 175px;
+}
+.book-status1 {
+  margin-left: 200px;
+  width: 150px;
+  background-color: orange;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+.book-status2 {
+  margin-left: 200px;
+  width: 150px;
+  background-color: red;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+.cancel-button {
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  height: 40px;
+  margin-top: 16px;
+  margin-left: 20px;
+}
+.cancel-button:hover {
+  cursor: pointer;
+}
+.legende-status1 {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 250px;
+}

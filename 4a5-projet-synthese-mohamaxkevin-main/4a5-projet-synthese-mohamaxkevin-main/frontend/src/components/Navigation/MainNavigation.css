@@ -1,0 +1,23 @@
+.navigation {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  border-bottom: solid 3px black;
+  height: auto;
+}
+.navigation a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  padding: 10px;
+}
+
+.titre {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+#rent {
+  width: 90px;
+  height: 70px;
+}

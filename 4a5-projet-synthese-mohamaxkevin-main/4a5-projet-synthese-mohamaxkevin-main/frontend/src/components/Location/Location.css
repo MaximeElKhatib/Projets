@@ -1,0 +1,95 @@
+.popup {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: rgba(49, 49, 49, 0.8);
+}
+.location {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 460px;
+  width: 700px;
+  background-color: white;
+  backdrop-filter: blur(4px);
+  box-shadow: 0 0 10px;
+}
+.header-location {
+  background-color: black;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.close-popup {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 50px;
+  position: fixed;
+  right: 0px;
+}
+.close-popup:hover {
+  cursor: pointer;
+}
+.car-popup {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.car-image {
+  background-color: rgb(227, 224, 224);
+  width: 600px;
+  height: 200px;
+  display: flex;
+}
+#image-pop-up {
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 150px;
+  width: 200px;
+}
+.car-infos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+}
+.titre-popup {
+  margin-right: 90px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.book {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+}
+.book-pop {
+  background-color: rgb(235, 235, 8);
+  width: 130px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+  margin-left: 50px;
+}
+.msgErreur {
+  margin-top: 80px;
+  margin-left: 50px;
+  color: red;
+}
+.book:hover {
+  cursor: pointer;
+}
