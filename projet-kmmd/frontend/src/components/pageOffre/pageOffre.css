@@ -1,0 +1,17 @@
+.pageOffre {
+    display: flex ;
+    justify-content: center;
+    margin-left: 200px;
+}
+
+.conteneur-offres {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conteneur-detail {
+
+      
+}

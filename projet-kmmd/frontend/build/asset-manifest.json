@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1105d6ce.css",
+    "main.js": "/static/js/main.b30b0e89.js",
+    "static/media/worker.jpg": "/static/media/worker.0ee83bb156ac93f24846.jpg",
+    "static/media/Skillseek.PNG": "/static/media/Skillseek.adf09971818ebb12fa74.PNG",
+    "index.html": "/index.html",
+    "main.1105d6ce.css.map": "/static/css/main.1105d6ce.css.map",
+    "main.b30b0e89.js.map": "/static/js/main.b30b0e89.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1105d6ce.css",
+    "static/js/main.b30b0e89.js"
+  ]
+}
